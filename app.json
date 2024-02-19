@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "nativeApp",
-    "slug": "nativeApp"
+    "slug": "nativeApp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "36212db6-7f39-4cf1-b0ea-071bd61711bb"
+      }
+    },
+    "android": {
+      "package": "com.dofi.jobsearch"
+    }
   }
 }
